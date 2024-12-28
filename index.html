@@ -2,37 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>iCash-Like Design</title>
+  <title>PeyGo - Home</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Sidebar Navigation -->
+  <!-- Sidebar -->
   <aside class="sidebar">
     <div class="logo-container">
-      <h1 class="logo">iCash</h1>
+      <h1 class="logo">PeyGo</h1>
     </div>
     <nav>
       <ul class="nav-list">
-        <li>Home</li>
-        <li>Loyalty Program</li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="loyalty.html">Loyalty Program</a></li>
         <li>
-          Credit health 
-          <span class="badge new">New</span>
+          <a href="credit-health.html">Credit Health
+            <span class="badge new">New</span>
+          </a>
         </li>
-        <li>Wallet</li>
-        <li>Profile</li>
-        <li>Support</li>
-        <li>FAQ</li>
-        <li>Log out</li>
+        <li><a href="wallet.html">Wallet</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">Log out</a></li>
       </ul>
     </nav>
 
     <div class="app-section">
       <p>
-        Download the iCash mobile app and get back on track to financial health from
-        anywhere, at any time.
+        Download the PeyGo mobile app and get back on track to financial health from anywhere, at any time.
       </p>
       <div class="app-badges">
+        <!-- Replace these src with actual images or links -->
         <a href="#">
           <img src="app-store-badge.png" alt="App Store" />
         </a>
@@ -41,48 +42,50 @@
         </a>
       </div>
       <p class="rate-experience">Rate your experience with us</p>
+      <div class="rating-stars">
+        ★★★★☆
+      </div>
+      <p class="copyright">
+        ©2024 PeyGo by Finabanx. All rights reserved
+      </p>
     </div>
   </aside>
 
   <!-- Main Content -->
   <main class="main-content">
-    <!-- Top bar (User info) -->
+    <!-- Top Bar -->
     <header class="top-bar">
       <span class="user-email">sarkiamada@gmail.com</span>
       <span class="membership-level">Elite</span>
     </header>
 
-    <!-- Loans Section -->
-    <section>
-      <h2>Loans</h2>
-      <div class="card loan-card">
-        <h3>Instant Loan</h3>
-        <p>
-          Need a new loan?<br />
-          Start a new application now!<br />
-          Our fast and easy loan application provides you with an answer in just minutes!
-        </p>
-        <button class="primary-btn">Apply now</button>
-      </div>
+    <!-- Intro Section -->
+    <section class="hero-section">
+      <h2>Welcome to PeyGo</h2>
+      <p>Manage your loans, rewards, and credit health all in one place.</p>
+      <button class="primary-btn" onclick="alert('Welcome to PeyGo!')">Get Started</button>
     </section>
 
-    <!-- Programs Section -->
-    <section>
-      <h2>Programs</h2>
-      <div class="card program-card">
-        <h3>
-          Free credit health monitoring 
-          <span class="badge new">NEW</span>
-        </h3>
-        <p>
-          iCash offers its members free, instant access to their credit score and
-          report, powered by Equifax.
-        </p>
-        <ul>
-          <li>Track your credit score updates in real-time.</li>
-        </ul>
+    <!-- Card Layout Example -->
+    <section class="features-section">
+      <h2>Our Key Features</h2>
+      <div class="card-container">
+        <div class="card feature-card fade-in-up">
+          <h3>Instant Loans</h3>
+          <p>Fast approvals and easy repayment options.</p>
+        </div>
+        <div class="card feature-card fade-in-up">
+          <h3>Loyalty Rewards</h3>
+          <p>Earn points and redeem them for cash back.</p>
+        </div>
+        <div class="card feature-card fade-in-up">
+          <h3>Credit Health</h3>
+          <p>Track your credit score progress in real-time.</p>
+        </div>
       </div>
     </section>
   </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
