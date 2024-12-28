@@ -1,0 +1,146 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #ededed;
+  width: 240px;
+  min-height: 100vh;
+  padding: 20px;
+  float: left; /* or use flexbox if you prefer */
+}
+
+/* Logo */
+.logo-container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation links */
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Badges (e.g., "New") */
+.badge {
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.badge.new {
+  background-color: #ff5757;
+}
+
+/* App section in sidebar */
+.app-section {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.app-badges {
+  margin: 15px 0;
+}
+
+.app-badges img {
+  width: 120px; /* adjust as needed */
+  margin-right: 10px;
+}
+
+/* Rate experience text */
+.rate-experience {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 240px; /* match sidebar width */
+  padding: 20px;
+}
+
+/* Top bar (user info) */
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-email {
+  margin-right: 20px;
+  color: #555;
+}
+
+.membership-level {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Section headings */
+.main-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Cards */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card p {
+  line-height: 1.5;
+}
+
+/* Button */
+.primary-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
