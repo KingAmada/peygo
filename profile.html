@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PeyGo - Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo-container">
+      <h1 class="logo">PeyGo</h1>
+    </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="loyalty.html">Loyalty Program</a></li>
+        <li><a href="credit-health.html">Credit Health <span class="badge new">New</span></a></li>
+        <li><a href="wallet.html">Wallet</a></li>
+        <li><a href="profile.html" class="active">Profile</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">Log out</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <span class="user-email">sarkiamada@gmail.com</span>
+      <span class="membership-level">Elite</span>
+    </header>
+
+    <h2>Profile</h2>
+    <div class="profile-section">
+      <div class="card personal-info">
+        <h3>Personal Information</h3>
+        <p><strong>Name</strong>: Sarki Amada</p>
+        <p><strong>Email</strong>: sarkiamada@gmail.com <a href="#" class="edit-link">Edit</a></p>
+        <p><a href="#" class="link-style">Learn how we manage your privacy here.</a></p>
+      </div>
+      <div class="card membership-info">
+        <h3>Membership</h3>
+        <p><strong>Status</strong>: Elite</p>
+        <p><a href="#" class="link-style">Learn more about your benefits here.</a></p>
+      </div>
+      <div class="card email-preferences">
+        <h3>Email preferences</h3>
+        <p>Help us improve your experience with PeyGo through better communication. 
+           Please adjust your email preferences below and we will tailor our emails to your liking.</p>
+        <ul class="preferences-list">
+          <li>
+            <input type="checkbox" id="preference1" checked />
+            <label for="preference1">Financial wellness, credit tips, and product updates</label>
+          </li>
+          <li>
+            <input type="checkbox" id="preference2" />
+            <label for="preference2">Exclusive promotions & loyalty updates</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
