@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PeyGo - Credit Health</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo-container">
+      <h1 class="logo">PeyGo</h1>
+    </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="loyalty.html">Loyalty Program</a></li>
+        <li><a href="credit-health.html" class="active">Credit Health <span class="badge new">New</span></a></li>
+        <li><a href="wallet.html">Wallet</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">Log out</a></li>
+      </ul>
+    </nav>
+    <!-- Sidebar content repeated -->
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <span class="user-email">sarkiamada@gmail.com</span>
+      <span class="membership-level">Elite</span>
+    </header>
+
+    <h2>Credit Health by Equifax</h2>
+    <div class="credit-health-container">
+      <div class="card credit-benefits">
+        <h3>Credit health benefits</h3>
+        <ul>
+          <li>✔ Completely free</li>
+          <li>✔ In-depth credit score insights</li>
+          <li>✔ Tracking of your payment history</li>
+          <li>✔ Helpful summary of inquiries</li>
+          <li>✔ Tips and educational materials</li>
+        </ul>
+        <p>Our service offers a comprehensive look at your financial standing, including your credit score, payment history, credit utilization, account types, and recent inquiries.</p>
+      </div>
+      <div class="card credit-monitoring">
+        <h3>Credit health monitoring</h3>
+        <p><strong>Cost</strong>: <span class="highlight">Completely free</span></p>
+        <p><strong>Value of</strong>: <del>$279.40</del> per year</p>
+        <!-- Example gauge image or placeholder -->
+        <div class="gauge-image">
+          <img src="equifax-logo.png" alt="Equifax" />
+        </div>
+      </div>
+      <div class="card faq-card">
+        <h3>FAQ</h3>
+        <div class="faq-item">
+          <button class="faq-question">What is Credit Health? <span class="plus-minus">+</span></button>
+          <div class="faq-answer">Credit Health helps you monitor and maintain your financial well-being.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How do I sign up for Credit Health? <span class="plus-minus">+</span></button>
+          <div class="faq-answer">Simply provide the required personal information and accept the terms.</div>
+        </div>
+        <!-- More FAQ items if needed -->
+        <p class="more-faq">Read our full FAQ <a href="faq.html">here</a>.</p>
+      </div>
+    </div>
+
+    <section class="access-credit-report">
+      <h3>Access your credit report</h3>
+      <form>
+        <label for="sin">SIN (Optional)</label>
+        <input type="text" id="sin" placeholder="123 456 789" />
+
+        <label for="dob">Date of birth (yyyy-mm-dd)</label>
+        <input type="date" id="dob" />
+
+        <label for="home-address">Home address</label>
+        <input type="text" id="home-address" placeholder="123 Main St" />
+
+        <button type="submit" class="primary-btn">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
