@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PeyGo - Loyalty Program</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo-container">
+      <h1 class="logo">PeyGo</h1>
+    </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="loyalty.html" class="active">Loyalty Program</a></li>
+        <li>
+          <a href="credit-health.html">Credit Health
+            <span class="badge new">New</span>
+          </a>
+        </li>
+        <li><a href="wallet.html">Wallet</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">Log out</a></li>
+      </ul>
+    </nav>
+    <div class="app-section">
+      <p>
+        Download the PeyGo mobile app...
+      </p>
+      <!-- ... same as index -->
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <span class="user-email">sarkiamada@gmail.com</span>
+      <span class="membership-level">Elite</span>
+    </header>
+
+    <!-- Loyalty Program Content -->
+    <section>
+      <h2>Loyalty Program</h2>
+      <p>PeyGo loves rewarding its customers for their loyalty! Our loyalty program offers 3 different levels.</p>
+      <div class="loyalty-levels">
+        <!-- Example of 3 cards for loyalty levels -->
+        <div class="card level-card current-status">
+          <h3>Elite</h3>
+          <p>Once you create an account with PeyGo, you automatically become part of the Elite Club.</p>
+        </div>
+        <div class="card level-card">
+          <h3>Prestige</h3>
+          <p>Repay <strong>10 instant loans</strong> to upgrade to the Prestige Club.</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 30%;"></div>
+          </div>
+          <p class="progress-label">3 of 10 loans</p>
+        </div>
+        <div class="card level-card">
+          <h3>VIP</h3>
+          <p>Repay <strong>20 instant loans</strong> to upgrade to the VIP Club.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Instant Loan Comparison</h2>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Features</th>
+            <th>Elite (5%)</th>
+            <th>Prestige (10%)</th>
+            <th>VIP (20%)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cashback</td>
+            <td>5%</td>
+            <td>10%</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>Grace Period</td>
+            <td>5 days</td>
+            <td>5 days</td>
+            <td>5 days</td>
+          </tr>
+          <tr>
+            <td>Reapply Same Day</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Repayment Option</td>
+            <td>1 to 3</td>
+            <td>1 to 3</td>
+            <td>1 to 3</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
