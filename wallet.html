@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PeyGo - Wallet</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo-container">
+      <h1 class="logo">PeyGo</h1>
+    </div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="loyalty.html">Loyalty Program</a></li>
+        <li><a href="credit-health.html">Credit Health <span class="badge new">New</span></a></li>
+        <li><a href="wallet.html" class="active">Wallet</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">Log out</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <span class="user-email">sarkiamada@gmail.com</span>
+      <span class="membership-level">Elite</span>
+    </header>
+
+    <h2>Wallet</h2>
+    <div class="wallet-container">
+      <div class="card balance-card">
+        <h3>Current balance <span>💰</span></h3>
+        <p class="balance-amount">$ 0.00</p>
+        <p>Just a couple more dollars and you’ll be able to redeem your PeyGo wallet. The minimum payout is $20 of available money.</p>
+        <a href="#" class="link-style">Learn more</a>
+      </div>
+      <div class="card summary-card">
+        <h3>Summary</h3>
+        <p>Last redeem: <strong>∞</strong></p>
+        <p>Pending payment: <strong>$0.00</strong></p>
+        <p>Total redeemed: <strong>$0.00</strong></p>
+      </div>
+      <div class="card balance-details">
+        <h3>Balance details</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Pending</th>
+              <th>Available</th>
+              <th>Paid</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Instant Loan Cashback</td>
+              <td>$0.00</td>
+              <td>$0.00</td>
+              <td>$0.00</td>
+            </tr>
+            <tr>
+              <td>Referral Program</td>
+              <td>$0.00</td>
+              <td>$0.00</td>
+              <td>$0.00</td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td>$0.00</td>
+              <td>$0.00</td>
+              <td>$0.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card previous-redeems">
+        <h3>Previous redeems</h3>
+        <ul class="tabs">
+          <li class="tab active" data-tab="paid">Paid</li>
+          <li class="tab" data-tab="pending">Pending</li>
+        </ul>
+        <div class="tab-content" id="paid">
+          <p>You have not yet redeemed any cashback.</p>
+        </div>
+        <div class="tab-content" id="pending">
+          <p>No pending redemptions at this time.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card faq-card">
+      <h3>FAQ</h3>
+      <div class="faq-item">
+        <button class="faq-question">What are the conditions to redeem cashback? <span class="plus-minus">+</span></button>
+        <div class="faq-answer">You must have at least $20.00 available to redeem.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">When does my cashback expire? <span class="plus-minus">+</span></button>
+        <div class="faq-answer">Cashback never expires as long as your account is active.</div>
+      </div>
+      <p class="more-faq">More questions? <a href="faq.html">Contact us</a>.</p>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
